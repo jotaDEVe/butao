@@ -1,0 +1,43 @@
+$background-color: #DFBBB1;
+$primary-color: #F56476;
+$dark-color: #373F51;
+
+body {
+    margin: 0;
+    padding: 0
+}
+
+.containerDiv {
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #DFBBB1;
+}
+
+.btnContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    height: 400px;
+}
+
+#btn {
+    text-align: center;
+    width: 900px;
+    height: 500px;
+    border-radius: 30px;
+    border: 3px solid $dark-color;
+    background-color: #a98388;
+    color: $dark-color;
+    font-size: 50px;
+    font-family: 'Mooli', sans-serif;
+    box-shadow: 3px 20px 0px #7d585d;
+}
+
+#btn:active {
+    box-shadow: none;
+    transform: translateY(20px)
+}
